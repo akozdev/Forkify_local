@@ -9,7 +9,7 @@ export default class Search {
 
     async getResults() {
         try {
-            const res = await axios(`${proxy}http://food2fork.com/api/search?key=${key}&q=${this.query}`);
+            // const res = await axios(`${proxy}http://food2fork.com/api/search?key=${key}&q=${this.query}`);
             // const res = await axios(`${proxy}https://serene-hollows-36302.herokuapp.com/api/v1/search?q=${this.query}`);
             // console.log(res);
             // this.result = res.data.recipes;
@@ -20,4 +20,5 @@ export default class Search {
         }
     }
 }
+
 
