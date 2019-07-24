@@ -10,6 +10,7 @@ Import pizza_ingredients.js inside of the src/models/Recipe.js file
 
 This is how the getResults function from src/models/Search.js file should look like
 
+```
 async getResults() {
     try {
         this.result = pizza.recipes;
@@ -17,9 +18,11 @@ async getResults() {
         alert(error);
     }
 }
+```
 
 This is how the getResults function from src/models/Recipe.js file should look like
 
+```
 async getRecipe() {
     try {
         const res = pizzaIngredients;
@@ -33,3 +36,4 @@ async getRecipe() {
         alert('Something went wrong :(');
     }
 }
+```
